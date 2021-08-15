@@ -13,9 +13,12 @@ class BotHandler:
         content_type, chat_type, chat_id = telepot.glance(ctx)
         user_id = ctx["from"]["id"]
         language = ctx["from"]["language_code"]
+        
         print(language)
 
         # Accepting only text messages
         if content_type != "text":
             print("Error")
             return
+            
+        message = ctx["text"]
