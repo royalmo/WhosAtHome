@@ -1,0 +1,20 @@
+# AUTOREPLACE #
+
+If you do not modify the first line of this file, when the
+program will start, if it has internet connection, it will
+automaticlly replace the contents of this file with a list
+of ALL the possible IP addresses that can be obtained on
+that LAN.
+
+You can set it manually, or change it later on, but be sure
+to restart the system in order to apply changes.
+
+The format of this file once set up should look like this:
+
+192.168.1.0
+192.168.1.1
+192.168.1.2
+192.168.1.3
+... and so on
+
+You must not insert comments or blank lines on this file.
